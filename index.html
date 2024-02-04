@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENERGIS</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="icon" href="logo.jpeg" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                ELETRIS ENERGY POWER
+            </a>
+        </div>
+    </nav>
+
+    <div id="MainIndex">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.freepik.com/fotos-premium/mao-de-close-up-do-aperto-de-mao-do-empresario-para-trabalho-em-equipe-da-parceria-de-fusao-de-negocios-e-acordo-comercial-negociacao-bem-sucedida-aperto-de-mao_43157-4002.jpg"
+                        class="card-img-top" alt="Imagem 1">
+                    <div class="card-body">
+                        <h5 class="card-title">QUEM SOMOS</h5>
+                        <p class="card-text">Clique aqui para mais informações sobre quem somos!</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary" onclick="scrollToSection('sobreNos')" >CONFIRA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.freepik.com/fotos-gratis/um-eletricista-trabalha-em-uma-mesa-telefonica-com-um-cabo-eletrico-de-conexao_169016-15204.jpg"
+                        class="card-img-top" alt="Imagem 2">
+                    <div class="card-body">
+                        <h5 class="card-title">SERVIÇOS</h5>
+                        <p class="card-text">Clique aqui para mais informações sobre nossos serviços!</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary" onclick="scrollToSection('servico')" >CONFIRA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.freepik.com/vetores-premium/conceito-de-contato-comercial-entre-em-contato-por-e-mail-telefone-ou-localizacao-do-escritorio-comunique-se-com-os-clientes_675567-1852.jpg"
+                        class="card-img-top" alt="Imagem 3">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTATO</h5>
+                        <p class="card-text">Clique aqui para mais informações sobre contato!</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary" onclick="scrollToSection('contato')" >CONFIRA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="info">
+        <div id="sobreNos">
+            <div class="titleInfo">
+                <h2>SOBRE NÓS</h2>
+                <h5>"Nossa empresa especializada em energia oferece uma gama completa de serviços para atender às necessidades específicas de nossos clientes. Com uma equipe altamente qualificada e experiente, garantimos soluções eficientes e confiáveis para otimizar o desempenho de sistemas elétricos."</h5>
+            </div>
+        </div>
+        <div id="servico">
+            <div class="titleInfo">
+                <h2>SERVIÇOS</h2>
+                <h5><ul>
+                    <li>Instalação de Equipamentos</li>
+                    <li>Suporte Técnico de Potência</li>
+                    <li>Manutenção de Disjuntores</li>
+                    <li>Serviços Auxiliares</li>
+                    <li>Ensaios Elétricos de Potência</li>
+                    <li>Manutenção em Subestação (Preventivas e Corretivas)</li>
+                </ul></h5>
+            </div>
+        </div>
+        <div id="contato">
+            <div class="titleInfo">
+                <h2>CONTATO</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

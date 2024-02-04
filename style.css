@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Adicione uma fonte de sua escolha */
+}
+
+@media screen and (max-width: 400px) {
+    #MainIndex {
+        width: 70%;
+        margin: 0 auto; /* Centralizar horizontalmente */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#info {
+    margin-top: 100px;
+}
+
+.titleInfo {
+    margin-top: 30px;
+}
+
+#sobreNos,
+#servico,
+#contato {
+    text-align: center;
+    padding: 20px;
+    height: 1200px;
+}
+
+#servico {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out; /* Adicione um efeito de transição às cartas */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumentar o tamanho da carta ao passar o mouse */
+}
